@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "duns": {
+            "required": true,
+            "type": "string"
+        },
+        "naics": {
+            "required": false,
+            "type": "string"
+        },
+        "sort": {
+            "required": false,
+            "type": "string"
+        },
+        "direction": {
+            "required": false,
+            "type": "string"
+        },
+        "page": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

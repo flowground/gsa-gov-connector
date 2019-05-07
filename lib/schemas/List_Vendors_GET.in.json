@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "naics": {
+            "required": true,
+            "type": "string"
+        },
+        "setasides": {
+            "required": false,
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "vehicle": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "duns": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
